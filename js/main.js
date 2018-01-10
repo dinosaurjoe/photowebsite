@@ -29,6 +29,20 @@ document.getElementById("projects").onclick = function () {
 document.getElementById("contact").onclick = function () {
     location.href = "contact.html";
 };
+
+document.getElementById("523").onclick = function () {
+    location.href = "523abramar.html";
+};
+
+
+document.getElementById("ers").onclick = function () {
+    location.href = "erskine.html";
+};
+
+
+document.getElementById("451").onclick = function () {
+    location.href = "451abramar.html";
+};
 /**
 * Copyright (c) 2007-2013 Ariel Flesler - aflesler<a>gmail<d>com | http://flesler.blogspot.com
 * Dual licensed under MIT and GPL.
