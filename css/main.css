@@ -252,6 +252,8 @@ Recent works
 
 .owl-item>div {
     position:relative;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .owl-item>div a {
@@ -289,7 +291,6 @@ Recent works
 .owl-theme .owl-controls .owl-page span {
     background: #34C8B2;
 }
-
 
 /* ==========================================================================
 blog
