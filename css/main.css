@@ -35,25 +35,25 @@ a {
 }
 
 a {
-    color:#34c8b2;
+    color:#666666;
 }
 
 a:hover {
-    color:#ec343c;
+    color:#F79232;
     text-decoration: none;
 }
 .btn-o {
-    border:1px solid #34c8b2;
+    border:1px solid #666666;
     /*border-radius*/
     -webkit-border-radius:0px;
     -moz-border-radius:0px;
     border-radius:0px;
-    color:#34c8b2;
+    color:#666666;
 }
 
 .btn-o:hover {
     color:white;
-    background:#34c8b2;
+    background:#666666;
 }
 
 img {
@@ -124,13 +124,13 @@ img {
 Navigation
 ========================================================================== */
 .navbar-dark {
-    background:#222222;
+    background: white;
     z-index: 99999;
 }
 
 .navbar-dark a {
     /*color:rgb(153,160,162);*/
-    color: rgb(205, 209, 210);
+    color: #82B94A;
 }
 
 .navbar-brand {
@@ -145,17 +145,17 @@ Navigation
 }
 
 .navbar-brand strong {
-    color:white;
+    color:#F79232;
     margin-right:2px;
 }
 
 .navbar-brand:hover {
-    color:#ec343c;
+    color:#666666;
     text-decoration:none;
 }
 
 .nav>li>a:hover,.nav>li>a:focus {
-    background-color:#ec343c;
+    background-color:#F79232;
     color: white;
 }
 
@@ -167,15 +167,17 @@ html,body{
    height:100%;
 }
 .carousel,.item,.active{
-   height:100%;
-   position: center;
+    position: center;
+    display: table;
+    overflow-y: hidden;
  }
 
  .carousel-inner > .item > img {
     margin: 0 auto;
 }
 .carousel-inner{
-    height:100%;
+  height: 100vh;
+  width: 100%;
 }
 .carousel-header>img {
     display: block;
@@ -211,14 +213,15 @@ content-block
 }
 
 .content-block-cyan {
-    background:#34c8b2;
-    color:#ECF0F1;
+    background: #F9F9F9;
+    color:#666666;
 }
 
 .content-block-cyan h1 {
     font-weight:100;
     text-transform:uppercase;
     margin-bottom: 30px;
+    color: #F79232;
 }
 
 
@@ -227,8 +230,8 @@ Recent works
 ========================================================================== */
 
 .recent-projects-title {
-    background: rgba(236, 240, 241, 1);
-    color: #333;
+    background: white;
+    color: #666666;
     text-transform: uppercase;
     padding: 40px 0px;
     text-align: center;
@@ -296,11 +299,12 @@ Recent works
 blog
 ========================================================================== */
 .block-heading h1 {
-    margin-top:0;
+    margin-top: 0px;
 }
 
 .content-block-gray {
-    background:#ECF0F1;
+    background:#F9F9F9;
+    padding-top: 10px;
 }
 
 .block-heading {
@@ -317,7 +321,7 @@ footer.content-block {
 }
 
 .content-block-dark {
-    background:#222222;
+    background: white;
 }
 
 footer {
