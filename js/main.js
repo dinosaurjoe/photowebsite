@@ -11,24 +11,25 @@ $(document).ready(function() {
   });
 
 
-  jQuery('.nav > li > a').click(function(e){
-		e.preventDefault();
-		jQuery.scrollTo(jQuery(this).attr('href'), 400, { offset:-(jQuery('#top').height()), axis:'y' });
-	});
+ $("#projects").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#projectsdiv").offset().top
+    }, 1500);
+});
 
-document.getElementById("home").onclick = function () {
-    location.href = "index.html";
-};
+  $("#contact").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contactdiv").offset().top
+    }, 1500);
+});
+
+ $("#home").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#carousel-header").offset().top
+    }, 1500);
+});
 
 
-document.getElementById("projects").onclick = function () {
-    location.href = "projects.html";
-};
-
-
-document.getElementById("contact").onclick = function () {
-    location.href = "contact.html";
-};
 
 document.getElementById("523").onclick = function () {
     location.href = "523abramar.html";
