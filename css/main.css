@@ -163,30 +163,6 @@ Navigation
 /* ==========================================================================
 Caurosel
 ========================================================================== */
-html,body{
-   height:100%;
-}
-.carousel,.item,.active{
-    position: center;
-    display: table;
-    overflow-y: hidden;
- }
-
- .carousel-inner > .item > img {
-    margin: 0 auto;
-}
-.carousel-inner{
-  height: 100vh;
-  width: 100%;
-}
-{
-  -webkit-backface-visibility: hidden;
-}
-.carousel-header>img {
-    display: block;
-    margin: 0 auto;
-}
-
 .carousel-control {
     z-index:9999;
 }
