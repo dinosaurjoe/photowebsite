@@ -22,6 +22,17 @@ h1,h2,h3,h4,h5,h6,.navbar {
     font-weight: 400;
 }
 
+#about {
+  text-align: center;
+}
+
+#profilephoto {
+  width: 200px;
+  height: auto;
+  margin-right: 40px;
+}
+
+
 body {
     padding-top: 70px;
 }
